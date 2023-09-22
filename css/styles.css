@@ -1,0 +1,16 @@
+header{
+    background-image: url("https://media.istockphoto.com/id/1335708681/es/foto/pilas-de-libros-para-la-ense%C3%B1anza-de-la-biblioteca-de-la-universidad-de-conocimiento-fondo.jpg?s=612x612&w=0&k=20&c=56fyxKorv49eZLJpBds08M4ENQvwFVFOXGhunXI7s08=");
+}
+
+.menu_principal li{
+    list-style-type: none;
+}
+
+.menu_principal a {
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+}
+
+.logos_foooter{
+    height: 20px;
+}
