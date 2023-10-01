@@ -1,16 +1,52 @@
-header{
-    background-image: url("https://media.istockphoto.com/id/1335708681/es/foto/pilas-de-libros-para-la-ense%C3%B1anza-de-la-biblioteca-de-la-universidad-de-conocimiento-fondo.jpg?s=612x612&w=0&k=20&c=56fyxKorv49eZLJpBds08M4ENQvwFVFOXGhunXI7s08=");
+*{
+    margin: 0;
+    padding: 0;
 }
 
-.menu_principal li{
+
+/* barra de navegacion en header*/
+.fondoMenu {
+    background-color: #1AACAC;
+}
+
+.navbar-light .navbar-nav .nav-link  {
+    color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    background-color: #362FD9;
+    color: #1AACAC;
+    border-radius: 10px;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+
+/*footer*/
+footer {
+    background-color: #1AACAC;
+}
+
+li {
     list-style-type: none;
 }
 
-.menu_principal a {
+a{
     text-decoration: none;
-    color: rgb(17, 17, 17);
 }
 
-.logos_foooter{
-    height: 20px;
+/* coloco display flex para que aparezca un icono al lado del otro*/
+.logos_footer{
+    display: flex;
+    justify-content: center;
 }
+
+/*iconos de facebook e instragram*/
+.bi {
+    color: black;
+    font-size: 30px;
+    margin: 10px;
+}
+
