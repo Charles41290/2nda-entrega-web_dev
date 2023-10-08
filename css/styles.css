@@ -13,6 +13,11 @@
     color: white;
 }
 
+/* le gana por especifidad el selector anterior(linea 12)*/
+/* .link-nav  {
+    color: white;
+} */
+
 .navbar-light .navbar-nav .nav-link:hover{
     background-color: #362FD9;
     color: #1AACAC;
@@ -23,6 +28,22 @@
     flex-grow: 0;
 }
 
+/*
+body-main
+*/
+.col{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+/*imagen de la tarjeta*/
+
+.card-img-top{
+    padding: 5px;
+    height: 325px;
+
+}
 
 /*footer*/
 footer {
